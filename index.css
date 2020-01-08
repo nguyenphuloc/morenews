@@ -14,7 +14,7 @@ li{
     width: 100px;
     color: whitesmoke;
 }
-hr{
+.line{
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -39,25 +39,25 @@ hr{
     bottom: 8px;
     width: 100%;
     text-align: center;
-  }
-  .image {
+}
+.image {
     max-width: 500px;
     position: relative;
     margin-left: 0;
-  }
-  .featured{
-      margin-left: 20px;
-  }
-  #featured{
-      font-size: 30px;
-      color: gray;
-  }
-  .content-featured{
-      color: mediumblue;
-  }
-  .infor{
-      font-size: small;
-  }
+}
+.featured{
+    margin-left: 20px;
+}
+#featured{
+    font-size: 30px;
+    color: gray;
+}
+.content-featured{
+    color: mediumblue;
+}
+.infor{
+    font-size: small;
+}
 .content-edit{
     padding: 0px 8px;
     content: "";
@@ -71,4 +71,7 @@ hr{
     padding: 0px 8px;
     float: left;
     width: 23%;
+}
+p{
+    color: gray;
 }
